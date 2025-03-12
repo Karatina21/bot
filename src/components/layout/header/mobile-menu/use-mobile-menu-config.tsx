@@ -55,8 +55,8 @@ const useMobileMenuConfig = (client?: RootStore['client']) => {
         [
             {
                 as: 'a',
-                href: 'https://binaryfx.site',
-                label: localize('Binaryfx.site'),
+                href: 'https://binarymafia.site',
+                label: localize('binarymafia.site'),
                 LeftComponent: BrandDerivLogoCoralIcon,
             },
             {
