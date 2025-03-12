@@ -20,7 +20,7 @@ import PlatformSwitcher from './platform-switcher';
 import './header.scss';
 
 const TelegramIcon = () => (
-    <a href="https://t.me/binaryfx_site" target="_blank" rel="noopener noreferrer" className="telegram-icon">
+    <a href="https://t.me/binarymafia_site" target="_blank" rel="noopener noreferrer" className="telegram-icon">
        <svg width="25px" height="25px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
 
 <g id="SVGRepo_bgCarrier" stroke-width="0"/>
@@ -92,7 +92,7 @@ const AppHeader = observer(() => {
                     <Button
                         tertiary
                         onClick={() => {
-                            window.location.replace('https://oauth.deriv.com/oauth2/authorize?app_id=68848&l=EN&brand=binaryfx');
+                            window.location.replace('https://oauth.deriv.com/oauth2/authorize?app_id=38869&l=EN&brand=binarymafia');
                         }}
                     >
                         <Localize i18n_default_text='Log in' />
