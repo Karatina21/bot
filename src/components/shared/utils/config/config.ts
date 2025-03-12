@@ -2,7 +2,7 @@ import { LocalStorageConstants, LocalStorageUtils, URLUtils } from '@deriv-com/u
 import { isStaging } from '../url/helpers';
 
 export const APP_IDS = {
-    LOCALHOST: 68848,
+    LOCALHOST: 38869,
     TMP_STAGING: 64584,
     STAGING: 29934,
     STAGING_BE: 29934,
@@ -10,7 +10,7 @@ export const APP_IDS = {
     PRODUCTION: 65555,
     PRODUCTION_BE: 65556,
     PRODUCTION_ME: 65557,
-    LIVE: 68848,
+    LIVE: 38869,
 };
 
 export const livechat_license_id = 12049137;
@@ -24,7 +24,7 @@ export const domain_app_ids = {
     'dbot.deriv.com': APP_IDS.PRODUCTION,
     'dbot.deriv.be': APP_IDS.PRODUCTION_BE,
     'dbot.deriv.me': APP_IDS.PRODUCTION_ME,
-    'bot.binaryfx.site': APP_IDS.LIVE, // ✅ Added support for your domain
+    'bot.binarymafia.site': APP_IDS.LIVE, // ✅ Added support for your domain
 };
 
 export const getCurrentProductionDomain = () =>
@@ -71,9 +71,9 @@ export const getDefaultAppIdAndUrl = () => {
 export const getAppId = () => {
     let app_id = window.localStorage.getItem('config.app_id');
 
-    if (!app_id || app_id === '68848') {
+    if (!app_id || app_id === '38869') {
         console.warn("⚠️ App ID is invalid, forcing correct App ID...");
-        app_id = '68848'; // ✅ Corrected App ID for your domain
+        app_id = '38869'; // ✅ Corrected App ID for your domain
         window.localStorage.setItem('config.app_id', app_id);
     }
 
