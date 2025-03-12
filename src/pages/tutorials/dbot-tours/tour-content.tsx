@@ -483,7 +483,7 @@ export const BOT_BUILDER_MOBILE: TMobileTourConfig[] = [
 
 export const DBOT_ONBOARDING_MOBILE: TMobileTourConfig[] = [
     {
-        header: <Localize i18n_default_text='Get started on Binary FX' />,
+        header: <Localize i18n_default_text='Get started on binarymafia' />,
         content: [
             <span key='get-started-on-deriv-bot-wrapper'>
                 <Localize
@@ -591,7 +591,7 @@ export const getTourDialogInfo = (is_mobile: boolean) => {
     return is_mobile ? (
         <Localize
             key='tour-dialog-info-mobile'
-            i18n_default_text='Here’s a quick guide on how to use Binary FX on the go.'
+            i18n_default_text='Here’s a quick guide on how to use binarymafia on the go.'
         />
     ) : (
         <Localize
@@ -620,7 +620,7 @@ export const getTourDialogAction = (is_mobile: boolean) => {
 };
 
 export const onboarding_tour_header = (
-    <Localize key='onboarding-tour-header' i18n_default_text='Get started on Binary FX' />
+    <Localize key='onboarding-tour-header' i18n_default_text='Get started on binarymafia' />
 );
 
 export const getBotBuilderTourHeader = (is_mobile: boolean) => {
